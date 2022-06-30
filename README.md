@@ -27,6 +27,13 @@ Two particular test features are implemented:
 ### Tech Stack
 
 * Core technologies: Java, Maven, Spring Boot
-* Rest:   Rest Assured
-* Test organization and reporting: Cucumber
+* Rest:   Rest Assured, Lombok (builders)
+* Test organization and reporting: Cucumber, Gherkin
+
+### Code Style and Plugins
+
+- install Gherkin and Cucumber for Java plugins
+- build and/or reload Maven project with required dependencies
+- install Java JVM on your local machine; add to .path
+- change indent to 4 chars for better readability
 

@@ -1,6 +1,6 @@
-package com.ownproject.model.response;
+package com.ownproject.models.response;
 
-import com.ownproject.model.enums.Threshold;
+import com.ownproject.models.enums.Threshold;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

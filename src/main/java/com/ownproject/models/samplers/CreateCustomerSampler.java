@@ -1,14 +1,16 @@
-package com.ownproject.model.samplers;
+package com.ownproject.models.samplers;
 
-import com.ownproject.model.Customer;
-import com.ownproject.model.request.CreateCustomerRequest;
+import com.ownproject.models.Customer;
+import com.ownproject.models.request.CreateCustomerRequest;
 import lombok.Builder;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
-import static com.ownproject.model.enums.Actor.owner;
+import static com.ownproject.models.enums.Actor.owner;
 import static java.time.Month.APRIL;
 
+@Component
 @Builder(toBuilder = true)
 public class CreateCustomerSampler {
 
@@ -23,6 +25,6 @@ public class CreateCustomerSampler {
                         .incomeLastYear(income)
                         .build())
                 .build();
-
     }
+
 }

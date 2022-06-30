@@ -1,7 +1,7 @@
-package com.ownproject.model.request;
+package com.ownproject.models.request;
 
-import com.ownproject.model.Customer;
-import com.ownproject.model.enums.Actor;
+import com.ownproject.models.Customer;
+import com.ownproject.models.enums.Actor;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

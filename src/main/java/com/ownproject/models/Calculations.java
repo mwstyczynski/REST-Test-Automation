@@ -1,6 +1,6 @@
-package com.ownproject.model;
+package com.ownproject.models;
 
-import com.ownproject.model.enums.Threshold;
+import com.ownproject.models.enums.Threshold;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
