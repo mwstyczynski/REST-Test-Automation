@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
-import static com.ownproject.models.enums.Actor.owner;
+import static com.ownproject.models.enums.Actor.OWNER;
 import static java.time.Month.APRIL;
 
 @Component
@@ -16,7 +16,7 @@ public class CreateCustomerSampler {
 
     public CreateCustomerRequest createCustomerWithIncome(Double income) {
         return CreateCustomerRequest.builder()
-                .actor(owner)
+                .actor(OWNER)
                 .customer(Customer.builder()
                         .firstName("Adam")
                         .lastName("Whatever")
