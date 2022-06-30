@@ -1,16 +1,32 @@
 ## Repository Content
 
 The following repository contains a Testing Framework Blueprint related with previously created [REST and Spring
-Boot](https://github.com/mwstyczynski/REST-and-Spring-Boot) repository. It has the same models implemented and once the
-application is running.
+Boot](https://github.com/mwstyczynski/REST-and-Spring-Boot) repository. Once the application is running it enables test
+execution and report generation.
 
-## Test strategy
+## Test Strategy
 
-### Features tests
+The expected final effect of prepared framework is the `report.html` file containing results of test executions.
+Particular endpoints are tested along with E2E flow. The heart of the framework is Scenario Context file which enables
+the transfer of request and response data from one call to another. Basic idea is to send a request to particular
+endpoint and validate the response as well as data returned by get endpoint for particular client.
 
-Two
+### Feature Tests
 
-### Tech stack
+Two particular test features are implemented:
 
-### Tech stack
+- tests of particular endpoint, as validation of request and response
+    - response validation
+    - validation of get endpoint- double che
+- end to end flow with examples, to validate that tax calculations and establishments are calculated properly
+    - on customer declaration
+    - on income update
+
+    + response of income change call should return the same data as get endpoint
+
+### Tech Stack
+
+* Core technologies: Java, Maven, Spring Boot
+* Rest:   Rest Assured
+* Test organization and reporting: Cucumber
 
