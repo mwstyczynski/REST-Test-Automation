@@ -30,10 +30,10 @@ Two particular test features are implemented:
 * Rest:   Rest Assured, Lombok (builders)
 * Test organization and reporting: Cucumber, Gherkin
 
-### Code Style and Plugins
+### Local Setup Requirements and Code Style
 
 - install Gherkin and Cucumber for Java plugins
-- build and/or reload Maven project with required dependencies
+- build and/or reload Maven project with dependencies
 - install Java JVM on your local machine; add to .path
 - change indent to 4 chars for better readability
 
