@@ -1,6 +1,6 @@
 Feature: End to end scenarios for Customers creation and Income change
 
-  Scenario Outline: Customer is created and
+  Scenario Outline: Customer is created and income is changed
     Given Create customer request is sent, supplemented with "<income>" income last year
     Examples:
       | income |
