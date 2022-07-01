@@ -12,7 +12,7 @@ import static io.restassured.http.ContentType.JSON;
 
 @Slf4j
 @Component
-public class CustomerClient {
+public class TaxCalculationClient {
 
     private String baseUrl = "https://localhost:8080/";
 
