@@ -6,23 +6,24 @@ execution and report generation.
 
 ## Test Strategy
 
-The expected final effect of prepared framework is the `report.html` file containing results of test executions.
+The expected final effect of prepared framework is generation of the `report.html` file containing results of test executions.
 Particular endpoints are tested along with E2E flow. The heart of the framework is Scenario Context file which enables
 the transfer of request and response data from one call to another. Basic idea is to send a request to particular
-endpoint and validate the response as well as data returned by get endpoint for particular client.
+endpoint and validate the response as well as data returned by get endpoint for particular customer.
 
 ### Feature Tests
 
 Two particular test features are implemented:
 
 - tests of particular endpoint, as validation of request and response
-    - response validation
-    - validation of get endpoint- double che
+    - validation of responses
+- set of tax calculation checks based on boundary value examples 
 - end to end flow with examples, to validate that tax calculations and establishments are calculated properly
-    - on customer declaration
+    - on customer creation
     - on income update
 
-    + response of income change call should return the same data as get endpoint
+    + response of income change call should return the same calculations as get endpoint
+
 
 ### Tech Stack
 
