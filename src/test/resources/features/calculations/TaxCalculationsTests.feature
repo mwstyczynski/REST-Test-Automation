@@ -2,9 +2,9 @@ Feature: Validation of Calculated tax value and Established threshold
 
   #TODO: Complete scenario after Configuration
   Scenario Outline: Customer is created and income is changed
-    Given Create customer request is sent, supplemented with "<income>" income last year
+    Given Create customer request is sent, supplemented with "<incomeLastYear>" income last year
     Examples:
-      | threshold | income | tax    |
-      | FIRST     | 12.23  | 12.23  |
-      | SECOND    | 123.54 | 123.54 |
-      | THIRD     | 456.2  | 456.2  |
+      | incomeLastYear | calculatedTax | establishedThreshold |
+      | 12.23          | 1.80          | FIRST                |
+      | 123.54         | 18.0          | SECOND               |
+      | 456.2          | 60.2          | THIRD                |
