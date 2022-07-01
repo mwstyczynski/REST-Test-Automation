@@ -25,13 +25,13 @@ Two particular test features are implemented:
     + response of income change call should return the same calculations as get endpoint
 
 
-### Tech Stack
+## Tech Stack
 
 * Core technologies: Java, Maven, Spring Boot
 * Rest:   Rest Assured, Lombok (builders)
 * Test organization and reporting: Cucumber, Gherkin
 
-### Local Setup Requirements and Code Style
+## Local Setup Requirements and Code Style
 
 - install Gherkin and Cucumber for Java plugins
 - build and/or reload Maven project with dependencies
