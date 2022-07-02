@@ -22,7 +22,7 @@ Two particular test features are implemented:
     - on customer creation
     - on income update
 
-    + response of income change call should return the same calculations as get endpoint
+    + response of income change call should return the same calculations as get endpoint called after the operation
 
 
 ## Tech Stack
@@ -37,4 +37,5 @@ Two particular test features are implemented:
 - build and/or reload Maven project with dependencies
 - install Java JVM on your local machine; add to .path
 - change indent to 4 chars for better readability
+### run `Application.java` from [REST and Spring Boot](https://github.com/mwstyczynski/REST-and-Spring-Boot) reposiroty to enable local endpoints
 
