@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @CucumberContextConfiguration
 @SpringBootTest(classes = TestConfiguration.class)
-public class StepsConfig {
+public class CucumberSpringConfiguration {
 
     @Autowired
     ScenarioContext scenarioContext;
@@ -24,5 +24,5 @@ public class StepsConfig {
 
     @Autowired
     CreateCustomerSampler createCustomerSampler;
-    
+
 }
