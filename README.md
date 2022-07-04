@@ -39,3 +39,8 @@ Two particular test features are implemented:
 - change indent to 4 chars for better readability
  ##### And most importantly- run `Application.java` from [REST and Spring Boot](https://github.com/mwstyczynski/REST-and-Spring-Boot) reposiroty to enable local endpoints
 
+
+## Materials
+[baeldung.com: Cucumber Spring Integration](https://www.baeldung.com/cucumber-spring-integration)
+[baeldung.com: Cucumber Rest API Testing](https://www.baeldung.com/cucumber-rest-api-testing)
+[cucumber.io: Documentation](https://cucumber.io/)
