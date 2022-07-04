@@ -42,5 +42,7 @@ Two particular test features are implemented:
 
 ## Materials
 [baeldung.com: Cucumber Spring Integration](https://www.baeldung.com/cucumber-spring-integration)
+
 [baeldung.com: Cucumber Rest API Testing](https://www.baeldung.com/cucumber-rest-api-testing)
+
 [cucumber.io: Documentation](https://cucumber.io/)
