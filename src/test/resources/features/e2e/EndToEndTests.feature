@@ -1,5 +1,7 @@
+@taxCalculation
 Feature: End to end scenarios for Customers creation and Income change
 
+  #TODO: Complete scenario after Configuration
   Scenario Outline: Customer is created and income is changed
     Given Create customer request is sent, supplemented with "<incomeLastYear>" income last year
     Examples:

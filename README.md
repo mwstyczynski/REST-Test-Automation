@@ -24,7 +24,6 @@ Two particular test features are implemented:
 
     + response of income change call should return the same calculations as get endpoint called after the operation
 
-
 ## Tech Stack
 
 * Core technologies: Java, Maven, Spring Boot
@@ -39,6 +38,19 @@ Two particular test features are implemented:
 - change indent to 4 chars for better readability
  ##### And most importantly- run `Application.java` from [REST and Spring Boot](https://github.com/mwstyczynski/REST-and-Spring-Boot) reposiroty to enable local endpoints
 
+## Cucumber configuration with Spring
+
+#TODO: Finnish configuration and description
+
+- **TestConfiguration** class in `main/java/com.ownproject.configuration` contains
+    - @Configuration annotation-  ***
+    - @EnableAutoConfiguration annotation-  ***
+- **RunTests** class in `test/java/com.ownproject` contains
+    - @RunWith(Cucumber.class) annotation-  ***
+    - @CucumberOptions(...) annotation-  ***
+- **CucumberSpringConfiguration** class in `test/java/com.ownproject.steps` contains
+    - @CucumberContextConfiguration annotation-  ***
+    - @SpringBootTest(classes = TestConfiguration.class) annotation-  ***
 
 ## Materials
 - [baeldung.com: Cucumber Spring Integration](https://www.baeldung.com/cucumber-spring-integration)

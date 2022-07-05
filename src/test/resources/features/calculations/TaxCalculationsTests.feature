@@ -1,3 +1,4 @@
+@taxCalculation
 Feature: Validation of Calculated tax value and Established threshold
 
   #TODO: Complete scenario after Configuration
