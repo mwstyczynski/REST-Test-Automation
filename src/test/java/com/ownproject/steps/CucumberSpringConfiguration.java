@@ -23,7 +23,10 @@ public class CucumberSpringConfiguration {
     TaxCalculationService taxCalculationService;
 
     @Autowired
-    CreateCustomerSampler createCustomerSampler;
-    */
+    CreateCustomerSampler createCustomerSampler;*/
+
 
 }
+
+// $FIXME: Find a way to connect other classes within Steps classes- having @Autowired annotations in...
+//  $FIXME: ... CucumberSpringConfiguration will thrown cucumberBackendException: No test instance

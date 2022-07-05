@@ -11,10 +11,12 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 public class TestConfiguration {
 
-    //   @Bean
-    //   @ScenarioScope
-    //   public ScenarioContext scenarioContext() {
-    //       return new ScenarioContext();
-    //   }
+    @Bean
+    @ScenarioScope
+    public ScenarioContext scenarioContext() {
+        return new ScenarioContext();
+    }
 
 }
+
+// $FIXME: @ScenarioScope and @Bean to be revalidated- ScenarioContext needs to be a cache for test execution
